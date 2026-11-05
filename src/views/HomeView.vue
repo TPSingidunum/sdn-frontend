@@ -15,6 +15,6 @@ onMounted(async () => {
 <template>
   <h1>Tasks</h1>
   <ul>
-    <li v-for="task in tasks" :key="task.id">{{ task.title }}: {{ task.description }}</li>
+    <li v-for="task in tasks" :key="task.task_id">{{ task.title }}: {{ task.description }}</li>
   </ul>
 </template>
